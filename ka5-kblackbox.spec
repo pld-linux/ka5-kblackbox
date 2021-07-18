@@ -43,6 +43,11 @@ KBlackbox is a game of hide and seek played on a grid of boxes where
 the computer has hidden several balls. The position of the hidden
 balls can be deduced by shooting beams into the box.
 
+%description -l pl.UTF-8
+KBlackbox jest grą "ukryj i szukaj" rozgrywaną na siatce pudełek,
+gdzie komputer ukrył kilka kul. Pozycje tych kul mogą być odgadnięte
+na zasadzie dedukcji wystrzeliwując promienie w kierunku pudełka.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
