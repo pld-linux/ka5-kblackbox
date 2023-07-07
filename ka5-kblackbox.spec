@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.04.2
+%define		kdeappsver	23.04.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kblackbox
 Summary:	Kblackbox
 Name:		ka5-%{kaname}
-Version:	23.04.2
+Version:	23.04.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	0716c52567ff19e104117f4384a87c3f
+# Source0-md5:	a7b952fe0294b9cda1ecd266b8456f35
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
